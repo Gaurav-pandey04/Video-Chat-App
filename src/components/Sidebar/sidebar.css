@@ -1,0 +1,106 @@
+.sidebar{
+    background-color: whitesmoke;
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebar img{
+    width: 25px;
+    margin: 0 5px;
+}
+
+.sidebar .heading{
+    display: flex;
+    justify-content: center;
+    margin: 25px 0;
+}
+
+.sidebar .contacts .contact{
+    display: flex;
+    margin: 15px;
+    background-color: ghostwhite;
+    padding: 12px;
+    border-radius: 25px;
+    cursor: pointer;
+    border: 2px solid whitesmoke;
+}
+
+.sidebar .contacts .contact p{
+    font-size: 16px;
+    margin:3px 5px;
+    text-align: center;
+}
+
+.sidebar .contacts .contact:hover{
+    background-color: whitesmoke;
+    border: 2px solid black;
+}
+
+.sidebar .add-user{
+    display: flex;
+    margin: 5px auto;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.sidebar .add-user p{
+    margin: 2px 2px;
+}
+
+.modal {
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  form label{
+    font-size: 18px;
+    margin: 15px;
+    margin-right: 2px;
+  }
+
+  form input{
+    padding: 5px;
+    font-size: 18px;
+    margin: 15px;
+    margin-left: 2px;
+  }
+
+  form button {
+    padding: 5px;
+    font-size: 18px;
+    margin: 15px;
+    cursor: pointer;
+  }

@@ -1,0 +1,71 @@
+.main{
+    width: 100%;
+    margin: 20px 50px;
+    position: relative;
+}
+
+.main .nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav p{
+    font-size: 22px;
+}
+
+.nav img{
+    width: 50px;
+}
+
+section{
+    margin: 15px;
+    width: 100%;
+}
+
+.videos{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 45px;
+}
+
+.videos .video{
+    height: 35vh;
+    width: 25vw;
+    border: 2px solid rgb(171, 169, 169);
+    border-radius: 15px;
+}
+
+.send-id{
+    width: 80%;
+    background-color: rgb(229, 231, 233);
+    padding: 15px;
+    position: absolute;
+    bottom: 2px;
+    right: 100px;
+}
+
+.send-id input{
+    outline: none;
+    border: none;
+    font-size: 18px;
+    padding: 5px;
+    width: 90%;
+    height: 100%;
+    background-color: rgb(229, 231, 233);
+}
+
+.send-id button{
+    font-size: 18px;
+    padding: 5px;
+    width: 8%;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.send-id button:hover{
+    background-color: rgb(229, 231, 233);
+    border: 2px solid grey;
+}
