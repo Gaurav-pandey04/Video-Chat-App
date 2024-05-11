@@ -38,7 +38,11 @@
     border: 2px solid black;
 }
 
-.sidebar .add-user{
+.footer{
+  margin: 2px auto;
+}
+
+.sidebar .add-user, .copyId{
     display: flex;
     margin: 5px auto;
     cursor: pointer;
@@ -99,6 +103,22 @@
   }
 
   form button {
+    padding: 5px;
+    font-size: 18px;
+    margin: 15px;
+    cursor: pointer;
+  }
+
+  .hr{
+    margin-bottom: 25px;
+  }
+
+  .user-name, .user-id{
+    font-size: 18px;
+    margin: 5px;
+  }
+
+  .btn{
     padding: 5px;
     font-size: 18px;
     margin: 15px;
