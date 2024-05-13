@@ -30,6 +30,11 @@ io.on('connection', (socket) => {
     console.log(`User joined room ${roomId}`);
   });
 
+  socket.on('userJoined', (stream) => {
+    socket.broadcast.emit('userJoined', stream);
+    console.log('User joined with stream:', stream);
+  });
+
   socket.on('offer', (data) => {
     io.to(data.roomId).emit('offer', data.offer);
   });
